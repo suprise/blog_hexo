@@ -3,9 +3,9 @@
   <title><![CDATA[Aeolia'Space]]></title>
   
   <link href="/atom.xml" rel="self"/>
-  <link href="https://suprise.github.io/blog_hexo/"/>
-  <updated>2015-04-09T16:35:26.000Z</updated>
-  <id>https://suprise.github.io/blog_hexo/</id>
+  <link href="http://suprise.github.io/blog_hexo/"/>
+  <updated>2015-04-20T17:51:26.000Z</updated>
+  <id>http://suprise.github.io/blog_hexo/</id>
   
   <author>
     <name><![CDATA[Aeolia]]></name>
@@ -15,9 +15,75 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[博客搭建那些坑]]></title>
+    <link href="http://suprise.github.io/blog_hexo/2015/04/21/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%82%A3%E4%BA%9B%E5%9D%91/"/>
+    <id>http://suprise.github.io/blog_hexo/2015/04/21/博客搭建那些坑/</id>
+    <published>2015-04-20T17:30:06.000Z</published>
+    <updated>2015-04-20T17:51:26.000Z</updated>
+    <content type="html"><![CDATA[<p>前段时间搭建完这个博客，中间踩了一些小坑，稍微记录一下。<br><a id="more"></a></p>
+<ol>
+<li><strong>github pages出不来。</strong><br> 按照github pages的<a href="https://help.github.com/categories/github-pages-basics/" target="_blank" rel="external">文档</a>将内容上传到gh-pages分支后，该目录下的index.html并没有被github的服务器解释出来。我这里的错误是该目录下_config.yml的语法有错，_config文件中的键值对，冒号后面应该有一个空格。具体其他错误，可以到对应仓库的settings里的github pages那一项看报错情况。</li>
+<li><strong>hexo-less编译报错:one ERROR about asset render failed</strong><br> 解决方法参见<a href="https://github.com/hexojs/hexo-renderer-less/issues/9" target="_blank" rel="external">issue</a>;</li>
+<li><strong>使用hexo的deploy不成功。</strong><br> windows下不能使用命令行窗口执行这一条指令，而需使用git bash</li>
+<li><strong>jade报错。</strong><br> 空格和缩进不能混用。</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>前段时间搭建完这个博客，中间踩了一些小坑，稍微记录一下。<br>]]>
+    
+    </summary>
+    
+      <category term="博客" scheme="http://suprise.github.io/blog_hexo/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="tech" scheme="http://suprise.github.io/blog_hexo/categories/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[周记150410-17]]></title>
+    <link href="http://suprise.github.io/blog_hexo/2015/04/21/%E5%91%A8%E8%AE%B0150410-17/"/>
+    <id>http://suprise.github.io/blog_hexo/2015/04/21/周记150410-17/</id>
+    <published>2015-04-20T17:08:33.000Z</published>
+    <updated>2015-04-20T17:49:52.000Z</updated>
+    <content type="html"><![CDATA[<p>一周要点：</p>
+<ul>
+<li>论文修改、查重、答辩。<a id="more"></a>
+</li>
+</ul>
+<p>本周说明：</p>
+<ol>
+<li>由于朋友放弃了学编程，我也就不用再学R语言以便进行指导。</li>
+<li>毕业论文真的是一件特别繁琐耗时的事情，仅仅是论文的结构变动，我就来来回回改了8个版本，真是太囧。</li>
+<li>心态还是不怎么好，答辩前一天晚上醒了好几次，一身大汗。</li>
+<li>和朋友聊天发现成都是一个很时髦的城市，许多国际品牌、活动都在成都有所开展。</li>
+</ol>
+<p>知乎浏览收获：</p>
+<ol>
+<li><a href="http://www.zhihu.com/question/29708472" target="_blank" rel="external">所谓运营阿里星</a></li>
+<li><a href="http://zhuanlan.zhihu.com/breeze/19908837" target="_blank" rel="external">Uber黑历史</a></li>
+</ol>
+<p>下周计划：</p>
+<ul>
+<li>学习安卓开发</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>一周要点：</p>
+<ul>
+<li>论文修改、查重、答辩。]]>
+    
+    </summary>
+    
+      <category term="周记" scheme="http://suprise.github.io/blog_hexo/tags/%E5%91%A8%E8%AE%B0/"/>
+    
+      <category term="weekSum" scheme="http://suprise.github.io/blog_hexo/categories/weekSum/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[周记150406-09]]></title>
-    <link href="https://suprise.github.io/blog_hexo/2015/04/09/%E5%91%A8%E8%AE%B0150406-09/"/>
-    <id>https://suprise.github.io/blog_hexo/2015/04/09/周记150406-09/</id>
+    <link href="http://suprise.github.io/blog_hexo/2015/04/09/%E5%91%A8%E8%AE%B0150406-09/"/>
+    <id>http://suprise.github.io/blog_hexo/2015/04/09/周记150406-09/</id>
     <published>2015-04-09T15:30:37.000Z</published>
     <updated>2015-04-09T16:35:26.000Z</updated>
     <content type="html"><![CDATA[<p>一周要点：</p>
@@ -42,16 +108,16 @@
     
     </summary>
     
-      <category term="周记" scheme="https://suprise.github.io/blog_hexo/tags/%E5%91%A8%E8%AE%B0/"/>
+      <category term="周记" scheme="http://suprise.github.io/blog_hexo/tags/%E5%91%A8%E8%AE%B0/"/>
     
-      <category term="weekSum" scheme="https://suprise.github.io/blog_hexo/categories/weekSum/"/>
+      <category term="weekSum" scheme="http://suprise.github.io/blog_hexo/categories/weekSum/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[新博客建成]]></title>
-    <link href="https://suprise.github.io/blog_hexo/2015/04/09/new-blog/"/>
-    <id>https://suprise.github.io/blog_hexo/2015/04/09/new-blog/</id>
+    <link href="http://suprise.github.io/blog_hexo/2015/04/09/new-blog/"/>
+    <id>http://suprise.github.io/blog_hexo/2015/04/09/new-blog/</id>
     <published>2015-04-09T11:16:07.000Z</published>
     <updated>2015-04-09T16:54:01.000Z</updated>
     <content type="html"><![CDATA[<ol>
@@ -86,16 +152,16 @@
     
     </summary>
     
-      <category term="生活" scheme="https://suprise.github.io/blog_hexo/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://suprise.github.io/blog_hexo/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="life" scheme="https://suprise.github.io/blog_hexo/categories/life/"/>
+      <category term="life" scheme="http://suprise.github.io/blog_hexo/categories/life/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[用javascript操作伪类和伪元素]]></title>
-    <link href="https://suprise.github.io/blog_hexo/2014/03/09/javascript-pesudo/"/>
-    <id>https://suprise.github.io/blog_hexo/2014/03/09/javascript-pesudo/</id>
+    <link href="http://suprise.github.io/blog_hexo/2014/03/09/javascript-pesudo/"/>
+    <id>http://suprise.github.io/blog_hexo/2014/03/09/javascript-pesudo/</id>
     <published>2014-03-09T14:48:11.000Z</published>
     <updated>2015-04-09T16:31:40.000Z</updated>
     <content type="html"><![CDATA[<p>通常而言，我们是不需要直接改变某一元素的伪类和伪元素这些cssRule的，正常的做法是切换某一元素的类，来应用预先写好的伪类和伪元素。<br>比如$(‘div’).toggleClass(‘someclass’);</p>
@@ -112,20 +178,20 @@
     
     </summary>
     
-      <category term="JS" scheme="https://suprise.github.io/blog_hexo/tags/JS/"/>
+      <category term="JS" scheme="http://suprise.github.io/blog_hexo/tags/JS/"/>
     
-      <category term="伪元素" scheme="https://suprise.github.io/blog_hexo/tags/%E4%BC%AA%E5%85%83%E7%B4%A0/"/>
+      <category term="伪元素" scheme="http://suprise.github.io/blog_hexo/tags/%E4%BC%AA%E5%85%83%E7%B4%A0/"/>
     
-      <category term="伪类" scheme="https://suprise.github.io/blog_hexo/tags/%E4%BC%AA%E7%B1%BB/"/>
+      <category term="伪类" scheme="http://suprise.github.io/blog_hexo/tags/%E4%BC%AA%E7%B1%BB/"/>
     
-      <category term="tech" scheme="https://suprise.github.io/blog_hexo/categories/tech/"/>
+      <category term="tech" scheme="http://suprise.github.io/blog_hexo/categories/tech/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[前端杂记]]></title>
-    <link href="https://suprise.github.io/blog_hexo/2013/10/12/%E5%89%8D%E7%AB%AF%E6%9D%82%E8%AE%B0/"/>
-    <id>https://suprise.github.io/blog_hexo/2013/10/12/前端杂记/</id>
+    <link href="http://suprise.github.io/blog_hexo/2013/10/12/%E5%89%8D%E7%AB%AF%E6%9D%82%E8%AE%B0/"/>
+    <id>http://suprise.github.io/blog_hexo/2013/10/12/前端杂记/</id>
     <published>2013-10-12T15:08:13.000Z</published>
     <updated>2015-04-09T15:15:40.000Z</updated>
     <content type="html"><![CDATA[<p>1，当表单中有元素name为submit时，会覆盖表单的submit方法<br>2，刷新页面时，FF不会重置表单中勾选、填写的内容，连selected都没用，所以要么手动重置，要么auto-complete=off</p>
@@ -135,7 +201,7 @@
 ]]>
     </summary>
     
-      <category term="tech" scheme="https://suprise.github.io/blog_hexo/categories/tech/"/>
+      <category term="tech" scheme="http://suprise.github.io/blog_hexo/categories/tech/"/>
     
   </entry>
   
